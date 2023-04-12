@@ -110,3 +110,38 @@ nav{
 .texto-maior{
     font-size: 36px;
 }
+
+@media screen and (max-width: 480px){
+    .caixa{
+        font-size: 14px;
+        margin-left: 15%;
+    }
+
+    .texto-principal {
+        font-size: 24px;
+    }
+
+    .botao{
+        font-size: 12px;
+    }
+
+    .botao_sec{
+        font-size: 18px;
+    }
+    .link{
+        margin-top: 30%;
+    }
+
+    .lista_opcoes{
+        display: block;
+    }
+
+    .item_lista{
+        width: 50%;
+        margin-left: 20%;
+    }
+
+    div ul li h2{
+        margin-right: 1em;
+    }
+}
