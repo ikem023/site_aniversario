@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body {
+    background-color: bisque;
+}
+
+.link {
+    text-align: center;
+    padding-top: 15%;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.imagemchapeu{
+    width: 10%;
+}
+
+.caixa{
+    display: inline-flex;
+    gap: 50px;
+    margin-left: 33%;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 24px;
+    
+}
+
+nav{
+    text-align: end;
+    margin-right: 3em;
+    
+}
+
+.botao {
+    text-decoration: none;
+    color: black;
+    background-color: beige;
+    border: 2px solid black;
+    padding: 0 1em;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.botao_sec{
+    font-size: 22px;
+}
+
+.botao:hover{
+    color:rgb(214, 33, 184);
+}
+
+.botao:active{
+    color:rgb(214, 33, 184);
+    font-size: 16.5px;
+}
+
+.botao_sec:active{
+    font-size: 23px;
+}
+
+.texto-principal{
+    font-size: 36x;
+    text-align: center;
+    margin-top: 13%;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.texto-secundario{
+    font-size: 20px;
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.escolha{
+    text-decoration: none;
+    color: black;
+}
+.escolha:active{
+    text-decoration:underline;
+    color: blueviolet;
+}
+
+
+.texto-lista{
+    margin: 5% 0 8% 0
+}
+
+.lista{
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+}
+
+.lista_opcoes{
+    display: inline-flex;
+    gap: 15em;
+    
+}
+
+.opcoes_da_lista{
+    list-style-type: none;
+
+}
+
+.imagemlista{
+    width: 100%;  
+}
+
+.item_lista{
+    border: 2px solid black;
+}
+
+.texto-maior{
+    font-size: 36px;
+}
