@@ -144,4 +144,11 @@ nav{
     div ul li h2{
         margin-right: 1em;
     }
+
+    .botao:active{
+        font-size: 12px;
+    }
+    .botao_sec:active{
+        font-size: 18px;
+    }
 }
